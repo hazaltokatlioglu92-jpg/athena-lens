@@ -1,0 +1,1537 @@
+{
+  "slug": "cafe-athena",
+  "profile": {
+    "name": "Café Athena",
+    "address": "1846 Garnet Ave, San Diego, CA 92109",
+    "area": "Pacific Beach (PB), San Diego, California",
+    "website": "https://cafeathena.com/",
+    "domain": "cafeathena.com",
+    "cuisine": "Greek and Mediterranean restaurant and bar",
+    "aliases": [
+      "Café Athena",
+      "Cafe Athena",
+      "Athena Cafe"
+    ],
+    "facts": "Open since 1990. Daily happy hour 3-6 PM with tapas-style small plates. Vegan, vegetarian and gluten-free options. Full bar with Greek-mythology-themed cocktails. Catering, group dining and private events."
+  },
+  "competitors": [
+    "Arslan's Gyros",
+    "Shawarma Shack"
+  ],
+  "prompts": [
+    {
+      "id": "P1",
+      "q": "best greek restaurants in pacific beach",
+      "stage": "discover"
+    },
+    {
+      "id": "P2",
+      "q": "where can i get good mediterranean food in pb san diego",
+      "stage": "discover"
+    },
+    {
+      "id": "P3",
+      "q": "greek food near garnet avenue pacific beach",
+      "stage": "discover"
+    },
+    {
+      "id": "P4",
+      "q": "mediterranean restaurants in pacific beach with outdoor seating",
+      "stage": "discover"
+    },
+    {
+      "id": "P5",
+      "q": "craving greek food in pb, any recommendations?",
+      "stage": "discover"
+    },
+    {
+      "id": "P6",
+      "q": "good restaurants for date night in pacific beach",
+      "stage": "occasion"
+    },
+    {
+      "id": "P7",
+      "q": "where's a nice place for happy hour on garnet ave",
+      "stage": "occasion"
+    },
+    {
+      "id": "P8",
+      "q": "family friendly restaurants in pb with mediterranean food",
+      "stage": "occasion"
+    },
+    {
+      "id": "P9",
+      "q": "best spots in pacific beach for group dinners",
+      "stage": "occasion"
+    },
+    {
+      "id": "P10",
+      "q": "romantic restaurant pacific beach not too expensive",
+      "stage": "occasion"
+    },
+    {
+      "id": "P11",
+      "q": "vegetarian friendly greek restaurants in pacific beach",
+      "stage": "needs"
+    },
+    {
+      "id": "P12",
+      "q": "mediterranean food in pb that takes reservations for 8 people",
+      "stage": "needs"
+    },
+    {
+      "id": "P13",
+      "q": "affordable greek restaurant pacific beach under $30 per person",
+      "stage": "needs"
+    },
+    {
+      "id": "P14",
+      "q": "greek restaurants in pacific beach open late night",
+      "stage": "needs"
+    },
+    {
+      "id": "P15",
+      "q": "does anywhere in pb have greek food with vegan options and good cocktails",
+      "stage": "needs"
+    },
+    {
+      "id": "P16",
+      "q": "is cafe athena in pacific beach any good",
+      "stage": "decide"
+    },
+    {
+      "id": "P17",
+      "q": "cafe athena pb reviews",
+      "stage": "decide"
+    },
+    {
+      "id": "P18",
+      "q": "does cafe athena take reservations",
+      "stage": "decide"
+    },
+    {
+      "id": "P19",
+      "q": "cafe athena happy hour times and prices",
+      "stage": "decide"
+    },
+    {
+      "id": "P20",
+      "q": "how's the food at cafe athena on garnet ave",
+      "stage": "decide"
+    }
+  ],
+  "scans": [
+    {
+      "date": "2026-10-23 11:44",
+      "platforms": [
+        "ChatGPT",
+        "Gemini",
+        "Claude"
+      ],
+      "results": [
+        {
+          "id": "P1",
+          "q": "best greek restaurants in pacific beach",
+          "stage": "discover",
+          "answers": {
+            "ChatGPT": {
+              "answer": "",
+              "sources": [],
+              "error": "401 Client Error: Unauthorized for url: https://api.openai.com/v1/chat/completions",
+              "restaurants": []
+            },
+            "Gemini": {
+              "answer": "",
+              "sources": [],
+              "error": "404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AQ.Ab8RN6LkviUpeSiu4Zq77kx8nxfTXFc07RvUwGeda_lno_10tw",
+              "restaurants": []
+            },
+            "Claude": {
+              "answer": "Based on the search results, here are the best Greek restaurants in Pacific Beach:\n\n**1. Cafe Athena** - Recognized by San Diego Magazine, City Beat, and the Zagat Survey as being the best Greek Restaurant in San Diego, this place has been in business for almost 35 years. Great for authentic Greek cuisine with a modern atmosphere and excellent service.\n\n**2. Spitz - Pacific Beach** - Highly rated with 4.8 stars and 166 reviews, perfect if you're craving Greek food in a more casual setting right in PB.\n\n**3. Mr Shawarma** - Rated 4.5 stars with 428 reviews and open until 2:00 AM, ideal for late-night Greek cravings with excellent baba ganoush and chicken bowls.\n\n**4. Shawarma Shack** - Located in Pacific Beach with a 4.7 star rating, great if you want to build your own bowl with fresh Greek ingredients.\n\nCafe Athena is definitely your top choice for a sit-down authentic Greek dining experience right in Pacific Beach!",
+              "sources": [
+                {
+                  "title": "Cafe Athena Restaurant Info and Reservations",
+                  "url": "https://www.sandiegorestaurants.com/cafe-athena/",
+                  "domain": "sandiegorestaurants.com"
+                },
+                {
+                  "title": "CAFE ATHENA, San Diego - Pacific Beach - Photos & Restaurant Reviews - Order Online Food Delivery - Tripadvisor",
+                  "url": "https://www.tripadvisor.com/Restaurant_Review-g60750-d3461449-Reviews-Cafe_Athena-San_Diego_California.html",
+                  "domain": "tripadvisor.com"
+                },
+                {
+                  "title": "TOP 10 BEST Mediterranean Restaurants near Pacific Beach, San Diego, CA 92109 - Updated 2026 - Yelp",
+                  "url": "https://www.yelp.com/search?find_desc=Mediterranean+Restaurants&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "TOP 10 BEST Athena Greek near Pacific Beach, San Diego, CA 92109 - Updated 2026 - Yelp",
+                  "url": "https://www.yelp.com/search?find_desc=athena+greek&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "TOP 10 BEST Mediterranean Restaurants near Pacific Beach, San Diego, CA 92109 - Updated 2026 - Yelp",
+                  "url": "https://www.yelp.com/search?find_desc=Mediterranean+Restaurants&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                }
+              ],
+              "restaurants": [
+                "Cafe Athena",
+                "Spitz - Pacific Beach",
+                "Mr Shawarma",
+                "Shawarma Shack"
+              ]
+            }
+          }
+        },
+        {
+          "id": "P2",
+          "q": "where can i get good mediterranean food in pb san diego",
+          "stage": "discover",
+          "answers": {
+            "ChatGPT": {
+              "answer": "",
+              "sources": [],
+              "error": "401 Client Error: Unauthorized for url: https://api.openai.com/v1/chat/completions",
+              "restaurants": []
+            },
+            "Gemini": {
+              "answer": "",
+              "sources": [],
+              "error": "404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AQ.Ab8RN6LkviUpeSiu4Zq77kx8nxfTXFc07RvUwGeda_lno_10tw",
+              "restaurants": []
+            },
+            "Claude": {
+              "answer": "Based on the search results, here are the best Mediterranean restaurants in Pacific Beach:\n\n1. **Spitz - Pacific Beach** - Fresh, delicious Mediterranean cuisine with creative street food, especially known for their rotisserie wraps. Highly rated at 4.8 stars.\n\n2. **Akhis Authentic Shawarma & Kebab** - Family-owned serving authentic shawarma & kebab wraps, plates, specialty fries with unique middle eastern fusion flavors. Rated 4.8 stars.\n\n3. **Cafe Athena** - Hands down, the best Greek food in San Diego according to reviews. A PB staple with 4.2 stars.\n\n4. **Slowly Restaurant & Lounge** - Located in the heart of Pacific Beach offering Mediterranean cuisine. Rated 4.6-4.7 stars with great atmosphere and happy hour.\n\n5. **Shawarma Shack** - Great if you love Greek food with build-your-own bowl options. Rated 4.7 stars.\n\nAll of these are right in Pacific Beach, so you're in luck! Spitz and Akhis are especially popular for casual, flavorful Mediterranean fare.",
+              "sources": [
+                {
+                  "title": "TOP 10 BEST Mediterranean Restaurants near Pacific Beach, San Diego, CA 92109 - Updated 2026 - Yelp",
+                  "url": "https://www.yelp.com/search?find_desc=Mediterranean+Restaurants&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "THE BEST 10 MEDITERRANEAN RESTAURANTS NEAR PACIFIC BEACH, SAN DIEGO, CA 92109 - UPDATED 2026 - HOURS - YELP",
+                  "url": "https://www.yelp.com/search?cflt=mediterranean&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "THE BEST 10 MEDITERRANEAN RESTAURANTS NEAR PACIFIC BEACH, SAN DIEGO, CA 92109 - UPDATED 2026 - HOURS - YELP",
+                  "url": "https://www.yelp.com/search?cflt=mediterranean&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "THE BEST 10 MEDITERRANEAN RESTAURANTS NEAR PACIFIC BEACH, SAN DIEGO, CA 92109 - UPDATED 2026 - HOURS - YELP",
+                  "url": "https://www.yelp.com/search?cflt=mediterranean&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "TOP 10 BEST Mediterranean Restaurants near Pacific Beach, San Diego, CA 92109 - Updated 2026 - Yelp",
+                  "url": "https://www.yelp.com/search?find_desc=Mediterranean+Restaurants&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "TOP 10 BEST Mediterranean Restaurants near Pacific Beach, San Diego, CA 92109 - Updated 2026 - Yelp",
+                  "url": "https://www.yelp.com/search?find_desc=Mediterranean+Restaurants&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "45 Best Mediterranean Restaurants In Ocean Beach",
+                  "url": "https://www.opentable.com/cuisine/best-mediterranean-restaurants-ocean-beach-san-diego-ca",
+                  "domain": "opentable.com"
+                },
+                {
+                  "title": "The Best 723 Restaurants Near Pacific Beach Park",
+                  "url": "https://www.opentable.com/landmark/restaurants-near-pacific-beach-park",
+                  "domain": "opentable.com"
+                },
+                {
+                  "title": "THE BEST 10 MEDITERRANEAN RESTAURANTS NEAR PACIFIC BEACH, SAN DIEGO, CA 92109 - UPDATED 2026 - HOURS - YELP",
+                  "url": "https://www.yelp.com/search?cflt=mediterranean&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "TOP 10 BEST Mediterranean Restaurants near Pacific Beach, San Diego, CA 92109 - Updated 2026 - Yelp",
+                  "url": "https://www.yelp.com/search?find_desc=Mediterranean+Restaurants&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "TOP 10 BEST Mediterranean Restaurants near Pacific Beach, San Diego, CA 92109 - Updated 2026 - Yelp",
+                  "url": "https://www.yelp.com/search?find_desc=Mediterranean+Restaurants&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                }
+              ],
+              "restaurants": [
+                "Spitz - Pacific Beach",
+                "Akhis Authentic Shawarma & Kebab",
+                "Cafe Athena",
+                "Slowly Restaurant & Lounge",
+                "Shawarma Shack"
+              ]
+            }
+          }
+        },
+        {
+          "id": "P3",
+          "q": "greek food near garnet avenue pacific beach",
+          "stage": "discover",
+          "answers": {
+            "ChatGPT": {
+              "answer": "",
+              "sources": [],
+              "error": "401 Client Error: Unauthorized for url: https://api.openai.com/v1/chat/completions",
+              "restaurants": []
+            },
+            "Gemini": {
+              "answer": "",
+              "sources": [],
+              "error": "404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AQ.Ab8RN6LkviUpeSiu4Zq77kx8nxfTXFc07RvUwGeda_lno_10tw",
+              "restaurants": []
+            },
+            "Claude": {
+              "answer": "Great! I found some excellent Greek options for you near Garnet Avenue in Pacific Beach. Here are my recommendations:\n\n**1. Cafe Athena** - 1846 Garnet Avenue  \nThis is your best bet! Cafe Athena has been serving Greek and Mediterranean cuisine since 1990 and San Diego Magazine awarded it Best Greek Restaurant in San Diego for four consecutive years, from 2006 through 2009. The restaurant offers authentic Greek fare with favorites like gyros, spanakopita, and avgolemono soup, plus they have a full bar with Mediterranean-inspired cocktails.\n\n**2. The Great Greek Mediterranean Grill** - 1380 Garnet Avenue  \nThis is a newer fast-casual option that opened recently. They serve signature Great Greek Gyro and souvlaki plates with options like lamb, steak, or chicken, along with house-made dips.\n\nBoth are right on Garnet Avenue, making them super convenient for you! Cafe Athena is the more established, sit-down option with excellent reviews, while The Great Greek is perfect if you want something quick and casual.",
+              "sources": [
+                {
+                  "title": "Greek food in Pacific Beach - Review of Cafe Athena, San Diego, CA - Tripadvisor",
+                  "url": "https://www.tripadvisor.co.nz/ShowUserReviews-g60750-d3461449-r724772697-Cafe_Athena-San_Diego_California.html",
+                  "domain": "tripadvisor.co.nz"
+                },
+                {
+                  "title": "Cafe Athena — Mediterranean in Pacific Beach",
+                  "url": "https://sandiegolineup.com/pacific-beach/mediterranean/cafe-athena",
+                  "domain": "sandiegolineup.com"
+                },
+                {
+                  "title": "Cafe Athena — Mediterranean in Pacific Beach",
+                  "url": "https://sandiegolineup.com/pacific-beach/mediterranean/cafe-athena",
+                  "domain": "sandiegolineup.com"
+                },
+                {
+                  "title": "SanDiegoVille: The Great Greek Mediterranean Grill Opening New Locations In San Diego's Pacific Beach & Oceanside",
+                  "url": "https://www.sandiegoville.com/2025/03/the-great-greek-mediterranean-grill.html?m=1",
+                  "domain": "sandiegoville.com"
+                },
+                {
+                  "title": "SanDiegoVille: The Great Greek Mediterranean Grill Opening New Locations In San Diego's Pacific Beach & Oceanside",
+                  "url": "https://www.sandiegoville.com/2025/03/the-great-greek-mediterranean-grill.html?m=1",
+                  "domain": "sandiegoville.com"
+                }
+              ],
+              "restaurants": [
+                "Cafe Athena",
+                "The Great Greek Mediterranean Grill"
+              ]
+            }
+          }
+        },
+        {
+          "id": "P4",
+          "q": "mediterranean restaurants in pacific beach with outdoor seating",
+          "stage": "discover",
+          "answers": {
+            "ChatGPT": {
+              "answer": "",
+              "sources": [],
+              "error": "401 Client Error: Unauthorized for url: https://api.openai.com/v1/chat/completions",
+              "restaurants": []
+            },
+            "Gemini": {
+              "answer": "",
+              "sources": [],
+              "error": "404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AQ.Ab8RN6LkviUpeSiu4Zq77kx8nxfTXFc07RvUwGeda_lno_10tw",
+              "restaurants": []
+            },
+            "Claude": {
+              "answer": "Based on my search, here are the best Mediterranean restaurants in Pacific Beach with outdoor seating:\n\n1. **Akhis Authentic Shawarma & Kebab** - Family-owned spot serving authentic shawarma, kebab wraps, plates, and specialty fries with outdoor seating. Known for super fresh and flavorful food.\n\n2. **Spitz - Pacific Beach** - Offers healthy modern Mediterranean, Greek & American favorites including huge wraps, rich salads, zesty gyros, falafel, wings, healthy bowls & loaded fries with outdoor seating. Highly rated with great reviews.\n\n3. **Cafe Athena** - Mediterranean, Greek restaurant that's been a Pacific Beach staple. Considered by some the best Greek food in San Diego.\n\n4. **Slowly Restaurant & Lounge** - Mediterranean restaurant with outdoor seating and private events. Upscale option with a nice ambiance.\n\n5. **Shawarma Shack** - Popular spot with absolutely delicious Mediterranean food. Great for build-your-own bowls.\n\nAll of these are located right in Pacific Beach and offer outdoor seating perfect for enjoying San Diego's beautiful weather!",
+              "sources": [
+                {
+                  "title": "THE BEST 10 MEDITERRANEAN RESTAURANTS NEAR PACIFIC BEACH, SAN DIEGO, CA 92109 - UPDATED 2026 - HOURS - YELP",
+                  "url": "https://www.yelp.com/search?cflt=mediterranean&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "THE BEST 10 MEDITERRANEAN RESTAURANTS NEAR PACIFIC BEACH, SAN DIEGO, CA 92109 - UPDATED 2026 - HOURS - YELP",
+                  "url": "https://www.yelp.com/search?cflt=mediterranean&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "THE BEST 10 MEDITERRANEAN RESTAURANTS NEAR PACIFIC BEACH, SAN DIEGO, CA 92109 - UPDATED 2026 - HOURS - YELP",
+                  "url": "https://www.yelp.com/search?cflt=mediterranean&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "SPITZ - PACIFIC BEACH - Updated October 2026 - 162 Reviews - 260 Photos - 967 Garnet Ave, San Diego, California - Mediterranean - Restaurant Reviews - Phone Number - Menu - Yelp",
+                  "url": "https://www.yelp.com/biz/spitz-san-diego-5",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "The 10 Best Outdoor Seating Restaurants in Pacific Beach San Diego - Tripadvisor",
+                  "url": "https://www.tripadvisor.com/Restaurants-g60750-zfn20484023-zfp6-San_Diego_California.html",
+                  "domain": "tripadvisor.com"
+                },
+                {
+                  "title": "TOP 10 BEST Mediterranean Restaurants near Pacific Beach, San Diego, CA 92109 - Updated 2026 - Yelp",
+                  "url": "https://www.yelp.com/search?find_desc=Mediterranean+Restaurants&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "TOP 10 BEST Mediterranean Restaurants near Pacific Beach, San Diego, CA 92109 - Updated 2026 - Yelp",
+                  "url": "https://www.yelp.com/search?find_desc=Mediterranean+Restaurants&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "THE BEST 10 MEDITERRANEAN RESTAURANTS NEAR PACIFIC BEACH, SAN DIEGO, CA 92109 - UPDATED 2026 - HOURS - YELP",
+                  "url": "https://www.yelp.com/search?cflt=mediterranean&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                }
+              ],
+              "restaurants": [
+                "Akhis Authentic Shawarma & Kebab",
+                "Spitz - Pacific Beach",
+                "Cafe Athena",
+                "Slowly Restaurant & Lounge",
+                "Shawarma Shack"
+              ]
+            }
+          }
+        },
+        {
+          "id": "P5",
+          "q": "craving greek food in pb, any recommendations?",
+          "stage": "discover",
+          "answers": {
+            "ChatGPT": {
+              "answer": "",
+              "sources": [],
+              "error": "401 Client Error: Unauthorized for url: https://api.openai.com/v1/chat/completions",
+              "restaurants": []
+            },
+            "Gemini": {
+              "answer": "",
+              "sources": [],
+              "error": "404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AQ.Ab8RN6LkviUpeSiu4Zq77kx8nxfTXFc07RvUwGeda_lno_10tw",
+              "restaurants": []
+            },
+            "Claude": {
+              "answer": "Great! Here are my top Greek food recommendations in Pacific Beach:\n\n1. **Cafe Athena** - Recognized by San Diego Magazine, City Beat, and the Zagat Survey as being the best Greek Restaurant in San Diego, this is a long-standing PB favorite on Garnet Avenue. The place has been in business for almost 35 years, serving authentic Greek cuisine in a casual, pleasant atmosphere.\n\n2. **Arslan's Gyros** - Described as \"the best and most authentic Greek food in San Diego\" by locals. It's a cozy spot near the beach with standout beef/lamb gyros and don't miss the spinach pie appetizer.\n\n3. **Shawarma Shack** - Great if you love Greek food, with build-your-own bowl options for a more casual, customizable meal.\n\n4. **Mr Shawarma** - Another solid Pacific Beach option with excellent smoky baba ganoush, chicken bowls, and tzatziki. Plus, it's open late (until 2 AM) if you get a late-night craving!\n\nCafe Athena is your best bet for a sit-down, traditional Greek dining experience, while Arslan's is perfect for authentic, casual Mediterranean flavors close to the beach!",
+              "sources": [
+                {
+                  "title": "Cafe Athena Restaurant Info and Reservations",
+                  "url": "https://www.sandiegorestaurants.com/cafe-athena/",
+                  "domain": "sandiegorestaurants.com"
+                },
+                {
+                  "title": "CAFE ATHENA, San Diego - Pacific Beach - Photos & Restaurant Reviews - Order Online Food Delivery - Tripadvisor",
+                  "url": "https://www.tripadvisor.com/Restaurant_Review-g60750-d3461449-Reviews-Cafe_Athena-San_Diego_California.html",
+                  "domain": "tripadvisor.com"
+                },
+                {
+                  "title": "TOP 10 BEST Athena Greek near Pacific Beach, San Diego, CA 92109 - Updated 2026 - Yelp",
+                  "url": "https://www.yelp.com/search?find_desc=athena+greek&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "TOP 10 BEST Mediterranean Restaurants near Pacific Beach, San Diego, CA 92109 - Updated 2026 - Yelp",
+                  "url": "https://www.yelp.com/search?find_desc=Mediterranean+Restaurants&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                }
+              ],
+              "restaurants": [
+                "Cafe Athena",
+                "Arslan's Gyros",
+                "Shawarma Shack",
+                "Mr Shawarma"
+              ]
+            }
+          }
+        },
+        {
+          "id": "P6",
+          "q": "good restaurants for date night in pacific beach",
+          "stage": "occasion",
+          "answers": {
+            "ChatGPT": {
+              "answer": "",
+              "sources": [],
+              "error": "401 Client Error: Unauthorized for url: https://api.openai.com/v1/chat/completions",
+              "restaurants": []
+            },
+            "Gemini": {
+              "answer": "",
+              "sources": [],
+              "error": "404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AQ.Ab8RN6LkviUpeSiu4Zq77kx8nxfTXFc07RvUwGeda_lno_10tw",
+              "restaurants": []
+            },
+            "Claude": {
+              "answer": "Based on recent recommendations, here are the best restaurants for date night in Pacific Beach:\n\n1. **Slowly Restaurant & Lounge** - Perfect for date night with great food and romantic ambiance\n\n2. **Enoteca Adriano** - Great spot for a romantic dinner where everything is truly delicious\n\n3. **Hideaway** - Great spot in PB for dinner before a night out with great food and drinks\n\n4. **Captain's Quarters** - Great for date night and also for a nice evening with a small group of friends\n\n5. **Costa Brava** - The whole tapas experience is awesome for a date\n\n6. **JRDN Restaurant** - Romantic dinner along the beach with great service and amazing food\n\n7. **The Beverly** - Handcrafted cocktails and chef-inspired cuisine with breathtaking rooftop views\n\nAll of these spots consistently get mentioned for their romantic atmosphere and quality food, with options ranging from Italian to tapas to beachfront dining!",
+              "sources": [
+                {
+                  "title": "TOP 10 BEST Romantic Date Night near Pacific Beach, San Diego, CA 92109 - Updated 2026 - Yelp",
+                  "url": "https://www.yelp.com/search?find_desc=Romantic+Date+Night&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "TOP 10 BEST Romantic Date Night near Pacific Beach, San Diego, CA 92109 - Updated 2026 - Yelp",
+                  "url": "https://www.yelp.com/search?find_desc=Romantic+Date+Night&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "TOP 10 BEST Romantic Date Night near Pacific Beach, San Diego, CA 92109 - Updated 2026 - Yelp",
+                  "url": "https://www.yelp.com/search?find_desc=Romantic+Date+Night&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "Good First Date Restaurants Pacific Beach, San Diego, CA 92109 - Last Updated August 2026 - Yelp",
+                  "url": "https://www.yelp.com/search?find_desc=good+first+date+restaurants&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "Good First Date Restaurants Pacific Beach, San Diego, CA 92109 - Last Updated August 2026 - Yelp",
+                  "url": "https://www.yelp.com/search?find_desc=good+first+date+restaurants&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "TOP 10 BEST Dinner Restaurant near Pacific Beach, San Diego, CA - Updated 2026 - Yelp",
+                  "url": "https://www.yelp.com/search?find_desc=Dinner+Restaurant&find_loc=Pacific+Beach%2C+San+Diego%2C+CA",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "TOP 10 BEST Dinner Restaurant near Pacific Beach, San Diego, CA - Updated 2026 - Yelp",
+                  "url": "https://www.yelp.com/search?find_desc=Dinner+Restaurant&find_loc=Pacific+Beach%2C+San+Diego%2C+CA",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "TOP 10 BEST Romantic Date Night near Pacific Beach, San Diego, CA 92109 - Updated 2026 - Yelp",
+                  "url": "https://www.yelp.com/search?find_desc=Romantic+Date+Night&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "TOP 10 BEST Romantic Date Night near Pacific Beach, San Diego, CA 92109 - Updated 2026 - Yelp",
+                  "url": "https://www.yelp.com/search?find_desc=Romantic+Date+Night&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "Good First Date Restaurants Pacific Beach, San Diego, CA 92109 - Last Updated August 2026 - Yelp",
+                  "url": "https://www.yelp.com/search?find_desc=good+first+date+restaurants&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "Good First Date Restaurants Pacific Beach, San Diego, CA 92109 - Last Updated August 2026 - Yelp",
+                  "url": "https://www.yelp.com/search?find_desc=good+first+date+restaurants&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "Good First Date Restaurants Pacific Beach, San Diego, CA 92109 - Last Updated August 2026 - Yelp",
+                  "url": "https://www.yelp.com/search?find_desc=good+first+date+restaurants&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "Good First Date Restaurants Pacific Beach, San Diego, CA 92109 - Last Updated August 2026 - Yelp",
+                  "url": "https://www.yelp.com/search?find_desc=good+first+date+restaurants&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "The Perfect Date Night in Pacific Beach",
+                  "url": "https://www.thebeverlypb.com/perfect-date-night-pacific-beach/",
+                  "domain": "thebeverlypb.com"
+                },
+                {
+                  "title": "The Perfect Date Night in Pacific Beach",
+                  "url": "https://www.thebeverlypb.com/perfect-date-night-pacific-beach/",
+                  "domain": "thebeverlypb.com"
+                }
+              ],
+              "restaurants": [
+                "Slowly Restaurant & Lounge",
+                "Enoteca Adriano",
+                "Hideaway",
+                "Captain's Quarters",
+                "Costa Brava",
+                "JRDN Restaurant",
+                "The Beverly"
+              ]
+            }
+          }
+        },
+        {
+          "id": "P7",
+          "q": "where's a nice place for happy hour on garnet ave",
+          "stage": "occasion",
+          "answers": {
+            "ChatGPT": {
+              "answer": "",
+              "sources": [],
+              "error": "401 Client Error: Unauthorized for url: https://api.openai.com/v1/chat/completions",
+              "restaurants": []
+            },
+            "Gemini": {
+              "answer": "",
+              "sources": [],
+              "error": "404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AQ.Ab8RN6LkviUpeSiu4Zq77kx8nxfTXFc07RvUwGeda_lno_10tw",
+              "restaurants": []
+            },
+            "Claude": {
+              "answer": "Based on current recommendations, here are some great happy hour spots on Garnet Avenue in Pacific Beach:\n\n**1. Tavern at the Beach** (1200 Garnet Ave)  \nVoted the spot with the best happy hour in Pacific Beach and San Diego, this is the top choice if you love beer—The Tavern has 30 draft handles to pull from.\n\n**2. Mavericks Beach Club** (860 Garnet Ave)  \nThe 5-to-8 p.m. stretch, when most other happy hours have already ended and this one is still pouring $4 drinks. Great for an extended happy hour with $4 Select Drafts & Wines, $6 Margaritas & Cocktails.\n\n**3. Bar Ella** (1030 Garnet Ave)  \nBar Ella's Happy Hour runs every Monday through Friday from 4 PM to 7 PM with $5 Beer & Wine, $6 Cocktails, $6 Small Bites—solid deals in a nice atmosphere.\n\n**4. Silver Fox Lounge** (1833 Garnet Ave)  \nSan Diego Magazine voted Silver Fox the city's Best Dive Bar, Best Happy Hour, and Best Neighborhood Bar in 2024. It's a classic dive with cheap drinks and the longest happy hour in Pacific Beach.\n\n**5. Cabo Cantina** (1050 Garnet Ave)  \nHappy Hour everyday, 4:00 PM 8:00 PM & Late Night 10:00 PM – 12:00 AM with 2-for-1 Drinks—perfect if you want margaritas and a lively vibe.",
+              "sources": [
+                {
+                  "title": "Tavern at the Beach",
+                  "url": "https://tavernatthebeach.com/",
+                  "domain": "tavernatthebeach.com"
+                },
+                {
+                  "title": "The Best Happy Hour Spots in Pacific Beach",
+                  "url": "https://www.sodiego.com/blog/best-happy-hour-in-pacific-beach/",
+                  "domain": "sodiego.com"
+                },
+                {
+                  "title": "Best Happy Hour in San Diego: 16 Spots Locals Love (2026) — San Diego Sights",
+                  "url": "https://sandiegosights.com/best-happy-hour-san-diego",
+                  "domain": "sandiegosights.com"
+                },
+                {
+                  "title": "10 Best Happy Hour Spots in Pacific Beach - Mission Sands",
+                  "url": "https://missionsands.com/10-best-happy-hour-spots-in-pacific-beach/",
+                  "domain": "missionsands.com"
+                },
+                {
+                  "title": "Best Happy Hour San Diego",
+                  "url": "https://barellapb.com/best-happy-hour-san-diego/",
+                  "domain": "barellapb.com"
+                },
+                {
+                  "title": "10 Best Happy Hour Spots in Pacific Beach - Mission Sands",
+                  "url": "https://missionsands.com/10-best-happy-hour-spots-in-pacific-beach/",
+                  "domain": "missionsands.com"
+                },
+                {
+                  "title": "Silver Fox Lounge - Best Dive Bar in Pacific Beach, San Diego (Since 1975)",
+                  "url": "https://silverfoxloungepb.com/",
+                  "domain": "silverfoxloungepb.com"
+                },
+                {
+                  "title": "Silver Fox Lounge - Best Dive Bar in Pacific Beach, San Diego (Since 1975)",
+                  "url": "https://silverfoxloungepb.com/",
+                  "domain": "silverfoxloungepb.com"
+                },
+                {
+                  "title": "10 Best Happy Hour Spots in Pacific Beach - Mission Sands",
+                  "url": "https://missionsands.com/10-best-happy-hour-spots-in-pacific-beach/",
+                  "domain": "missionsands.com"
+                }
+              ],
+              "restaurants": [
+                "Tavern at the Beach",
+                "Mavericks Beach Club",
+                "Bar Ella",
+                "Silver Fox Lounge",
+                "Cabo Cantina"
+              ]
+            }
+          }
+        },
+        {
+          "id": "P8",
+          "q": "family friendly restaurants in pb with mediterranean food",
+          "stage": "occasion",
+          "answers": {
+            "ChatGPT": {
+              "answer": "",
+              "sources": [],
+              "error": "401 Client Error: Unauthorized for url: https://api.openai.com/v1/chat/completions",
+              "restaurants": []
+            },
+            "Gemini": {
+              "answer": "",
+              "sources": [],
+              "error": "404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AQ.Ab8RN6LkviUpeSiu4Zq77kx8nxfTXFc07RvUwGeda_lno_10tw",
+              "restaurants": []
+            },
+            "Claude": {
+              "answer": "Based on current search results, here are the best family-friendly Mediterranean restaurants in Pacific Beach:\n\n1. **Spitz - Pacific Beach** - Family-friendly spot with healthy modern Mediterranean wraps, salads, gyros, and falafel, plus Vegan, Gluten-Free, Dairy-Free & Halal options.\n\n2. **Akhis Authentic Shawarma & Kebab** - Family-owned & operated restaurant serving authentic shawarma & kebab wraps, plates, specialty fries with unique flavors.\n\n3. **Cafe Athena** - A well-established Greek restaurant right in PB with the best Greek food in San Diego according to locals. Great for families looking for traditional Mediterranean fare.\n\n4. **Shawarma Shack** - Casual, family-friendly spot with delicious Mediterranean cuisine where you can build your own bowl.\n\n5. **Amplified Ale Works** - Family-friendly grass patio with scratch-made Mediterranean-style food like pomegranate sirloin skewers and Döner fries, plus ocean views.\n\nAll of these restaurants offer casual atmospheres perfect for families, with plenty of options for both kids and adults!",
+              "sources": [
+                {
+                  "title": "SPITZ - PACIFIC BEACH - Updated October 2026 - 162 Reviews - 260 Photos - 967 Garnet Ave, San Diego, California - Mediterranean - Restaurant Reviews - Phone Number - Menu - Yelp",
+                  "url": "https://www.yelp.com/biz/spitz-san-diego-5",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "SPITZ - PACIFIC BEACH - Updated October 2026 - 162 Reviews - 260 Photos - 967 Garnet Ave, San Diego, California - Mediterranean - Restaurant Reviews - Phone Number - Menu - Yelp",
+                  "url": "https://www.yelp.com/biz/spitz-san-diego-5",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "SPITZ - PACIFIC BEACH - Updated October 2026 - 162 Reviews - 260 Photos - 967 Garnet Ave, San Diego, California - Mediterranean - Restaurant Reviews - Phone Number - Menu - Yelp",
+                  "url": "https://www.yelp.com/biz/spitz-san-diego-5",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "THE BEST 10 MEDITERRANEAN RESTAURANTS NEAR PACIFIC BEACH, SAN DIEGO, CA 92109 - UPDATED 2026 - HOURS - YELP",
+                  "url": "https://www.yelp.com/search?cflt=mediterranean&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "THE BEST 10 MEDITERRANEAN RESTAURANTS NEAR PACIFIC BEACH, SAN DIEGO, CA 92109 - UPDATED 2026 - HOURS - YELP",
+                  "url": "https://www.yelp.com/search?cflt=mediterranean&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "TOP 10 BEST Mediterranean Restaurants near Pacific Beach, San Diego, CA 92109 - Updated 2026 - Yelp",
+                  "url": "https://www.yelp.com/search?find_desc=Mediterranean+Restaurants&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "THE BEST 10 MEDITERRANEAN RESTAURANTS NEAR PACIFIC BEACH, SAN DIEGO, CA 92109 - UPDATED 2026 - HOURS - YELP",
+                  "url": "https://www.yelp.com/search?cflt=mediterranean&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "Pacific Beach Restaurants",
+                  "url": "https://bluewatervacationhomes.com/restaurants_dining/pacific-beach-restaurants",
+                  "domain": "bluewatervacationhomes.com"
+                }
+              ],
+              "restaurants": [
+                "Spitz - Pacific Beach",
+                "Akhis Authentic Shawarma & Kebab",
+                "Cafe Athena",
+                "Shawarma Shack",
+                "Amplified Ale Works"
+              ]
+            }
+          }
+        },
+        {
+          "id": "P9",
+          "q": "best spots in pacific beach for group dinners",
+          "stage": "occasion",
+          "answers": {
+            "ChatGPT": {
+              "answer": "",
+              "sources": [],
+              "error": "401 Client Error: Unauthorized for url: https://api.openai.com/v1/chat/completions",
+              "restaurants": []
+            },
+            "Gemini": {
+              "answer": "",
+              "sources": [],
+              "error": "404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AQ.Ab8RN6LkviUpeSiu4Zq77kx8nxfTXFc07RvUwGeda_lno_10tw",
+              "restaurants": []
+            },
+            "Claude": {
+              "answer": "Based on the search results, here are the best spots in Pacific Beach for group dinners:\n\n1. **The Grass Skirt** - A reviewer mentioned their company hosted a 32-person dinner here successfully. It's a fun Polynesian-themed spot with great cocktails and a vibrant atmosphere perfect for groups.\n\n2. **Slowly Restaurant & Lounge** - Described as ideal for \"big groups of friends, family gatherings and team events / team dinners\". Offers private events and outdoor seating.\n\n3. **The Fishery** - A seafood restaurant in Pacific Beach that's highly rated for groups. Great for fresh seafood lovers and has been booked frequently.\n\n4. **Pueblo** - Features stylish interiors, rooftop seating, and creative Baja-inspired dishes, and is especially popular for group dining. Modern upscale Mexican cuisine with a great vibe.\n\n5. **Enoteca Adriano** - Run by Roman-born chef Giuseppe Ciuffa, it blends modern creativity with traditional Italian flavors. Perfect for groups wanting an upscale Italian experience.\n\n6. **Ambrogio15** - Offers authentic Milan-style pizza and modern Italian dining and is suitable for group celebrations. Consistently excellent reviews.\n\n7. **JRDN Restaurant** - Oceanfront American steakhouse with great views, ideal for groups wanting a beachfront dining experience.\n\n8. **Costa Brava** - Latin and Mediterranean restaurant with good group-friendly atmosphere and shareable dishes.\n\nAll of these have experience accommodating larger parties and offer different vibes depending on what your group prefers!",
+              "sources": [
+                {
+                  "title": "TOP 10 BEST Dinner Restaurant near Pacific Beach, San Diego, CA - Updated 2026 - Yelp",
+                  "url": "https://www.yelp.com/search?find_desc=Dinner+Restaurant&find_loc=Pacific+Beach%2C+San+Diego%2C+CA",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "TOP 10 BEST Dinner Restaurant near Pacific Beach, San Diego, CA - Updated 2026 - Yelp",
+                  "url": "https://www.yelp.com/search?find_desc=Dinner+Restaurant&find_loc=Pacific+Beach%2C+San+Diego%2C+CA",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "70 Best Restaurants for Groups in San Diego",
+                  "url": "https://www.opentable.com/features/best-restaurants-for-groups-san-diego-ca",
+                  "domain": "opentable.com"
+                },
+                {
+                  "title": "70 Best Restaurants for Groups in San Diego",
+                  "url": "https://www.opentable.com/features/best-restaurants-for-groups-san-diego-ca",
+                  "domain": "opentable.com"
+                },
+                {
+                  "title": "Pacific Beach San Diego Restaurants: Top Oceanfront Dining Spots You Can’t Miss",
+                  "url": "https://pitahousesd.com/pacific-beach-san-diego-restaurants/",
+                  "domain": "pitahousesd.com"
+                },
+                {
+                  "title": "The Best Restaurants in Pacific Beach Right Now",
+                  "url": "https://www.opentable.com/neighborhood/san-diego/pacific-beach-restaurants",
+                  "domain": "opentable.com"
+                },
+                {
+                  "title": "71 Best Casual Restaurants in Pacific Beach",
+                  "url": "https://www.opentable.com/features/best-casual-restaurants-pacific-beach-ca",
+                  "domain": "opentable.com"
+                },
+                {
+                  "title": "71 Best Casual Restaurants in Pacific Beach",
+                  "url": "https://www.opentable.com/features/best-casual-restaurants-pacific-beach-ca",
+                  "domain": "opentable.com"
+                },
+                {
+                  "title": "The 10 Best Large groups Restaurants in Pacific Beach San Diego - Tripadvisor",
+                  "url": "https://www.tripadvisor.com/Restaurants-g60750-zfn20484023-zfp9-San_Diego_California.html",
+                  "domain": "tripadvisor.com"
+                },
+                {
+                  "title": "The 10 Best Large groups Restaurants in Pacific Beach San Diego - Tripadvisor",
+                  "url": "https://www.tripadvisor.com/Restaurants-g60750-zfn20484023-zfp9-San_Diego_California.html",
+                  "domain": "tripadvisor.com"
+                }
+              ],
+              "restaurants": [
+                "The Grass Skirt",
+                "Slowly Restaurant & Lounge",
+                "The Fishery",
+                "Pueblo",
+                "Enoteca Adriano",
+                "Ambrogio15",
+                "JRDN Restaurant",
+                "Costa Brava"
+              ]
+            }
+          }
+        },
+        {
+          "id": "P10",
+          "q": "romantic restaurant pacific beach not too expensive",
+          "stage": "occasion",
+          "answers": {
+            "ChatGPT": {
+              "answer": "",
+              "sources": [],
+              "error": "401 Client Error: Unauthorized for url: https://api.openai.com/v1/chat/completions",
+              "restaurants": []
+            },
+            "Gemini": {
+              "answer": "",
+              "sources": [],
+              "error": "404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AQ.Ab8RN6LkviUpeSiu4Zq77kx8nxfTXFc07RvUwGeda_lno_10tw",
+              "restaurants": []
+            },
+            "Claude": {
+              "answer": "Let me search for pricing information to ensure I recommend affordable options.Based on my search results, here are the best romantic restaurants in Pacific Beach that won't break the bank:\n\n**1. Enoteca Adriano** - The most romantic restaurant in Pacific Beach, this authentic Italian spot offers $30 and under dining with quite reasonable prices. It's popular for its romantic ambiance with an intimate atmosphere that's not too loud or bright.\n\n**2. Costa Brava** - A Spanish tapas restaurant with a romantic setting and $$ pricing. They're known for their bacon-wrapped dates and paella. Great for sharing small plates in an intimate environment.\n\n**3. Ambrogio15** - Has a modern and elegant atmosphere that makes it ideal for date nights with authentic Milan-style pizza. Listed as $$ - $$$ pricing, making it affordable yet special.\n\n**4. Slowly Restaurant & Lounge** - Features the coziest, romantic interior at $$ pricing. Perfect for a date night without overspending.\n\n**5. Lanna Thai Cuisine** - Described as beautiful and romantic at $$ pricing, offering a different cuisine option if you want something beyond Italian.\n\nMy top pick would be **Enoteca Adriano** - it consistently ranks as the most romantic spot in PB with excellent food and very reasonable prices!",
+              "sources": [
+                {
+                  "title": "The Best Restaurants in Pacific Beach Right Now",
+                  "url": "https://www.opentable.com/neighborhood/san-diego/pacific-beach-restaurants",
+                  "domain": "opentable.com"
+                },
+                {
+                  "title": "Enoteca Adriano Restaurant - San Diego, CA",
+                  "url": "https://www.opentable.com/r/enoteca-adriano-san-diego",
+                  "domain": "opentable.com"
+                },
+                {
+                  "title": "Enoteca Adriano",
+                  "url": "https://presidiosentinel.com/portfolio/enoteca-adriano-a-neighborhood-gem",
+                  "domain": "presidiosentinel.com"
+                },
+                {
+                  "title": "Enoteca Adriano",
+                  "url": "https://presidiosentinel.com/portfolio/enoteca-adriano-a-neighborhood-gem",
+                  "domain": "presidiosentinel.com"
+                },
+                {
+                  "title": "Pacific Beach San Diego Restaurants: Top Oceanfront Dining Spots You Can’t Miss",
+                  "url": "https://pitahousesd.com/pacific-beach-san-diego-restaurants/",
+                  "domain": "pitahousesd.com"
+                },
+                {
+                  "title": "Top 10 Best Quiet Romantic Restaurants near Pacific Beach, San Diego, CA - Last Updated February 2021 - Yelp",
+                  "url": "https://www.yelp.com/search?find_desc=quiet+romantic+restaurants&find_loc=Pacific+Beach%2C+San+Diego%2C+CA",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "Top 10 Best Quiet Romantic Restaurants near Pacific Beach, San Diego, CA - Last Updated February 2021 - Yelp",
+                  "url": "https://www.yelp.com/search?find_desc=quiet+romantic+restaurants&find_loc=Pacific+Beach%2C+San+Diego%2C+CA",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "Pacific Beach San Diego Restaurants: Top Oceanfront Dining Spots You Can’t Miss",
+                  "url": "https://pitahousesd.com/pacific-beach-san-diego-restaurants/",
+                  "domain": "pitahousesd.com"
+                },
+                {
+                  "title": "Good First Date Restaurants Pacific Beach, San Diego, CA 92109 - Last Updated August 2026 - Yelp",
+                  "url": "https://www.yelp.com/search?find_desc=good+first+date+restaurants&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "THE BEST 10 RESTAURANTS NEAR PACIFIC BEACH, SAN DIEGO, CA 92109 - UPDATED JULY 2026 - HOURS - YELP",
+                  "url": "https://www.yelp.com/search?cflt=restaurants&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                }
+              ],
+              "restaurants": [
+                "Enoteca Adriano",
+                "Costa Brava",
+                "Ambrogio15",
+                "Slowly Restaurant & Lounge",
+                "Lanna Thai Cuisine"
+              ]
+            }
+          }
+        },
+        {
+          "id": "P11",
+          "q": "vegetarian friendly greek restaurants in pacific beach",
+          "stage": "needs",
+          "answers": {
+            "ChatGPT": {
+              "answer": "",
+              "sources": [],
+              "error": "401 Client Error: Unauthorized for url: https://api.openai.com/v1/chat/completions",
+              "restaurants": []
+            },
+            "Gemini": {
+              "answer": "",
+              "sources": [],
+              "error": "404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AQ.Ab8RN6LkviUpeSiu4Zq77kx8nxfTXFc07RvUwGeda_lno_10tw",
+              "restaurants": []
+            },
+            "Claude": {
+              "answer": "Based on my search, here are the best vegetarian-friendly Greek restaurants in Pacific Beach:\n\n**1. Cafe Athena** - Specializes in Greek and vegetarian cuisine, and has a friendly staff and a helpful menu that uses an icon to identify vegetarian items. Vegetarian friendly with vegan and gluten free options. Located at 1846 Garnet Avenue, this restaurant has been serving since 1990 and offers dishes like spinach pistachio casserole and fire-roasted eggplant.\n\n**2. Mr Shawarma** - Located in Pacific Beach, this spot offers vegetarian-friendly Mediterranean options including baba ganoush and falafel.\n\n**3. Shawarma Shack** - Located at 2015 Garnet Ave in Pacific Beach, they offer vegetarian and vegan options including crispy falafel and other Greek-Mediterranean dishes.\n\nCafe Athena is your best bet for a full Greek dining experience with extensive vegetarian options in a sit-down setting!",
+              "sources": [
+                {
+                  "title": "Cafe Athena Restaurant Info and Reservations",
+                  "url": "https://www.sandiegorestaurants.com/cafe-athena/",
+                  "domain": "sandiegorestaurants.com"
+                },
+                {
+                  "title": "Cafe Athena Restaurant Info and Reservations",
+                  "url": "https://www.sandiegorestaurants.com/cafe-athena/",
+                  "domain": "sandiegorestaurants.com"
+                },
+                {
+                  "title": "Cafe Athena Restaurant Info and Reservations",
+                  "url": "https://www.sandiegorestaurants.com/cafe-athena/",
+                  "domain": "sandiegorestaurants.com"
+                },
+                {
+                  "title": "CAFE ATHENA, San Diego - Pacific Beach - Photos & Restaurant Reviews - Order Online Food Delivery - Tripadvisor",
+                  "url": "https://www.tripadvisor.com/Restaurant_Review-g60750-d3461449-Reviews-Cafe_Athena-San_Diego_California.html",
+                  "domain": "tripadvisor.com"
+                },
+                {
+                  "title": "Authentic Greek and Mediterranean Food - Cafe Athena",
+                  "url": "https://cafeathena.com/",
+                  "domain": "cafeathena.com"
+                },
+                {
+                  "title": "TOP 10 BEST Athena Greek near Pacific Beach, San Diego, CA 92109 - Updated 2026 - Yelp",
+                  "url": "https://www.yelp.com/search?find_desc=athena+greek&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "Best Greek food in Pacific Beach, San Diego",
+                  "url": "https://shawarmashacksd.com/tags/greek-food",
+                  "domain": "shawarmashacksd.com"
+                },
+                {
+                  "title": "Best Greek food in Pacific Beach, San Diego",
+                  "url": "https://shawarmashacksd.com/tags/greek-food",
+                  "domain": "shawarmashacksd.com"
+                }
+              ],
+              "restaurants": [
+                "Cafe Athena",
+                "Mr Shawarma",
+                "Shawarma Shack"
+              ]
+            }
+          }
+        },
+        {
+          "id": "P12",
+          "q": "mediterranean food in pb that takes reservations for 8 people",
+          "stage": "needs",
+          "answers": {
+            "ChatGPT": {
+              "answer": "",
+              "sources": [],
+              "error": "401 Client Error: Unauthorized for url: https://api.openai.com/v1/chat/completions",
+              "restaurants": []
+            },
+            "Gemini": {
+              "answer": "",
+              "sources": [],
+              "error": "404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AQ.Ab8RN6LkviUpeSiu4Zq77kx8nxfTXFc07RvUwGeda_lno_10tw",
+              "restaurants": []
+            },
+            "Claude": {
+              "answer": "Based on my search results, here are the best Mediterranean restaurants in Pacific Beach that take reservations for 8 people:\n\n**1. Slowly Restaurant & Lounge** - Located in Pacific Beach on Garnet Avenue, this restaurant has excellent ratings and accepts reservations. Known for its \"outstanding service and food\", it's a great choice for a group dinner.\n\n**2. Cafe Athena** - A Mediterranean Kitchen & Bar located in the heart of Pacific Beach, established in 1990 and operating successfully for over 30 years. They offer reservations and have group dining options. Their authentic Greek and Mediterranean dishes are made from scratch.\n\n**3. The Whaling Bar** (nearby in La Jolla) - While not directly in PB, this is a nearby option if you're willing to go a short distance. The ambiance is both cozy and luxurious with \"amazing food, service, and drinks\".\n\nI'd recommend calling ahead to confirm they can accommodate your party of 8, though both Slowly and Cafe Athena should be able to handle groups of that size. Cafe Athena specifically mentions group dining on their website, making them an especially good choice for your reservation.",
+              "sources": [
+                {
+                  "title": "45 Best Mediterranean Restaurants In Ocean Beach",
+                  "url": "https://www.opentable.com/cuisine/best-mediterranean-restaurants-ocean-beach-san-diego-ca",
+                  "domain": "opentable.com"
+                },
+                {
+                  "title": "45 Best Mediterranean Restaurants In Ocean Beach",
+                  "url": "https://www.opentable.com/cuisine/best-mediterranean-restaurants-ocean-beach-san-diego-ca",
+                  "domain": "opentable.com"
+                },
+                {
+                  "title": "CAFE ATHENA, San Diego - Pacific Beach - Photos & Restaurant Reviews - Order Online Food Delivery - Tripadvisor",
+                  "url": "https://www.tripadvisor.com/Restaurant_Review-g60750-d3461449-Reviews-Cafe_Athena-San_Diego_California.html",
+                  "domain": "tripadvisor.com"
+                },
+                {
+                  "title": "Authentic Greek and Mediterranean Food - Cafe Athena",
+                  "url": "https://cafeathena.com/",
+                  "domain": "cafeathena.com"
+                },
+                {
+                  "title": "27 Best Mediterranean Restaurants In Pacific Beach",
+                  "url": "https://www.opentable.com/cuisine/best-mediterranean-restaurants-pacific-beach-ca",
+                  "domain": "opentable.com"
+                }
+              ],
+              "restaurants": [
+                "Slowly Restaurant & Lounge",
+                "Cafe Athena",
+                "The Whaling Bar"
+              ]
+            }
+          }
+        },
+        {
+          "id": "P13",
+          "q": "affordable greek restaurant pacific beach under $30 per person",
+          "stage": "needs",
+          "answers": {
+            "ChatGPT": {
+              "answer": "",
+              "sources": [],
+              "error": "401 Client Error: Unauthorized for url: https://api.openai.com/v1/chat/completions",
+              "restaurants": []
+            },
+            "Gemini": {
+              "answer": "",
+              "sources": [],
+              "error": "404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AQ.Ab8RN6LkviUpeSiu4Zq77kx8nxfTXFc07RvUwGeda_lno_10tw",
+              "restaurants": []
+            },
+            "Claude": {
+              "answer": "Based on my search, here are the best affordable Greek restaurants in Pacific Beach under $30 per person:\n\n**1. Cafe Athena** (1846 Garnet Ave) - Price range: $17 - $57, with most dishes well under $30. Very good Greek food at a very reasonable price. Established in 1990, it's been successfully operating for over 30 years. They have happy hour daily from 3-6 pm.\n\n**2. Spitz - Pacific Beach** - Highly rated with 4.8 stars for Greek food cravings.\n\n**3. Shawarma Shack** - Great if you love Greek food, with build-your-own bowl options recommended.\n\n**4. The Great Greek Mediterranean Grill** - Ranked #1 in authentic food spots in Pacific Beach.\n\n**5. Arslan's Gyros** (3861 Mission Blvd) - Around $18 for a chicken plus falafel sandwich.\n\nFor the best combination of authenticity, value, and location in PB, I'd recommend **Cafe Athena** first!",
+              "sources": [
+                {
+                  "title": "Good Greek restaurant in Pacific Beach - Review of Cafe Athena, San Diego, CA - Tripadvisor",
+                  "url": "https://www.tripadvisor.co.nz/ShowUserReviews-g60750-d3461449-r192240223-Cafe_Athena-San_Diego_California.html",
+                  "domain": "tripadvisor.co.nz"
+                },
+                {
+                  "title": "THE BEST 10 GREEK RESTAURANTS NEAR PACIFIC BEACH, SAN DIEGO, CA 92109 - UPDATED OCTOBER 2026 - VERIFIED LISTINGS ONLY - HOURS - YELP",
+                  "url": "https://www.yelp.com/search?cflt=greek&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "Good Greek restaurant in Pacific Beach - Review of Cafe Athena, San Diego, CA - Tripadvisor",
+                  "url": "https://www.tripadvisor.co.nz/ShowUserReviews-g60750-d3461449-r192240223-Cafe_Athena-San_Diego_California.html",
+                  "domain": "tripadvisor.co.nz"
+                },
+                {
+                  "title": "Good Greek restaurant in Pacific Beach - Review of Cafe Athena, San Diego, CA - Tripadvisor",
+                  "url": "https://www.tripadvisor.co.nz/ShowUserReviews-g60750-d3461449-r192240223-Cafe_Athena-San_Diego_California.html",
+                  "domain": "tripadvisor.co.nz"
+                },
+                {
+                  "title": "Good Greek restaurant in Pacific Beach - Review of Cafe Athena, San Diego, CA - Tripadvisor",
+                  "url": "https://www.tripadvisor.co.nz/ShowUserReviews-g60750-d3461449-r192240223-Cafe_Athena-San_Diego_California.html",
+                  "domain": "tripadvisor.co.nz"
+                },
+                {
+                  "title": "Good Greek restaurant in Pacific Beach - Review of Cafe Athena, San Diego, CA - Tripadvisor",
+                  "url": "https://www.tripadvisor.co.nz/ShowUserReviews-g60750-d3461449-r192240223-Cafe_Athena-San_Diego_California.html",
+                  "domain": "tripadvisor.co.nz"
+                },
+                {
+                  "title": "CAFE ATHENA, San Diego - Pacific Beach - Photos & Restaurant Reviews - Order Online Food Delivery - Tripadvisor",
+                  "url": "https://www.tripadvisor.com/Restaurant_Review-g60750-d3461449-Reviews-Cafe_Athena-San_Diego_California.html",
+                  "domain": "tripadvisor.com"
+                },
+                {
+                  "title": "THE BEST 10 GREEK RESTAURANTS NEAR PACIFIC BEACH, SAN DIEGO, CA 92109 - UPDATED OCTOBER 2026 - VERIFIED LISTINGS ONLY - HOURS - YELP",
+                  "url": "https://www.yelp.com/search?cflt=greek&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "THE BEST 10 GREEK RESTAURANTS NEAR PACIFIC BEACH, SAN DIEGO, CA 92109 - UPDATED OCTOBER 2026 - VERIFIED LISTINGS ONLY - HOURS - YELP",
+                  "url": "https://www.yelp.com/search?cflt=greek&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "THE BEST 10 GREEK RESTAURANTS NEAR PACIFIC BEACH, SAN DIEGO, CA 92109 - UPDATED OCTOBER 2026 - VERIFIED LISTINGS ONLY - HOURS - YELP",
+                  "url": "https://www.yelp.com/search?cflt=greek&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "THE BEST 10 GREEK RESTAURANTS NEAR PACIFIC BEACH, SAN DIEGO, CA 92109 - UPDATED OCTOBER 2026 - VERIFIED LISTINGS ONLY - HOURS - YELP",
+                  "url": "https://www.yelp.com/search?cflt=greek&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "26 Best Greek Restaurants in San Diego",
+                  "url": "https://www.atly.com/united-states/california/san-diego/best-greek-food",
+                  "domain": "atly.com"
+                },
+                {
+                  "title": "26 Best Greek Restaurants in San Diego",
+                  "url": "https://www.atly.com/united-states/california/san-diego/best-greek-food",
+                  "domain": "atly.com"
+                },
+                {
+                  "title": "26 Best Greek Restaurants in San Diego",
+                  "url": "https://www.atly.com/united-states/california/san-diego/best-greek-food",
+                  "domain": "atly.com"
+                },
+                {
+                  "title": "Best 30 Greek Restaurants in Pacific Beach, San Diego, CA with Reviews",
+                  "url": "https://www.yellowpages.com/pacific-beach-san-diego-ca/greek-restaurants",
+                  "domain": "yellowpages.com"
+                },
+                {
+                  "title": "26 Best Greek Restaurants in San Diego",
+                  "url": "https://www.atly.com/united-states/california/san-diego/best-greek-food",
+                  "domain": "atly.com"
+                }
+              ],
+              "restaurants": [
+                "Cafe Athena",
+                "Spitz - Pacific Beach",
+                "Shawarma Shack",
+                "The Great Greek Mediterranean Grill",
+                "Arslan's Gyros"
+              ]
+            }
+          }
+        },
+        {
+          "id": "P14",
+          "q": "greek restaurants in pacific beach open late night",
+          "stage": "needs",
+          "answers": {
+            "ChatGPT": {
+              "answer": "",
+              "sources": [],
+              "error": "401 Client Error: Unauthorized for url: https://api.openai.com/v1/chat/completions",
+              "restaurants": []
+            },
+            "Gemini": {
+              "answer": "",
+              "sources": [],
+              "error": "404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AQ.Ab8RN6LkviUpeSiu4Zq77kx8nxfTXFc07RvUwGeda_lno_10tw",
+              "restaurants": []
+            },
+            "Claude": {
+              "answer": "Based on my search, Greek restaurant options in Pacific Beach are limited for late-night dining. Here's what I found:\n\n**For Late Night (though not super late):**\n\n1. **Cafe Athena** - 1846 Garnet Avenue; Open until 9:30pm Fri-Sat, 9:00pm Sun-Thu. This is established in 1990 and considered the go-to Greek spot in PB. They have daily happy hour from 3-6 PM with Mediterranean small plates and cocktails.\n\n**Other Mediterranean Options in PB:**\n\n2. **Spitz - Pacific Beach** - Mediterranean spot in Pacific Beach with good reviews\n\n3. **Shawarma Shack** - Pacific Beach location serving Greek food with build-your-own bowls\n\nUnfortunately, none of the Greek restaurants in Pacific Beach appear to be open truly \"late night\" (past 10pm). Cafe Athena is your best bet as it stays open latest on weekends until 9:30pm. If you need something after that, you might want to check if any nearby Mediterranean spots like gyro shops or cafes have later hours, though I'd need to search specifically for those.",
+              "sources": [
+                {
+                  "title": "Greek food in Pacific Beach - Review of Cafe Athena, San Diego, CA - Tripadvisor",
+                  "url": "https://www.tripadvisor.co.nz/ShowUserReviews-g60750-d3461449-r724772697-Cafe_Athena-San_Diego_California.html",
+                  "domain": "tripadvisor.co.nz"
+                },
+                {
+                  "title": "Authentic Greek and Mediterranean Food - Cafe Athena",
+                  "url": "https://cafeathena.com/",
+                  "domain": "cafeathena.com"
+                },
+                {
+                  "title": "Authentic Greek and Mediterranean Food - Cafe Athena",
+                  "url": "https://cafeathena.com/",
+                  "domain": "cafeathena.com"
+                },
+                {
+                  "title": "Authentic Greek and Mediterranean Food - Cafe Athena",
+                  "url": "https://cafeathena.com/",
+                  "domain": "cafeathena.com"
+                },
+                {
+                  "title": "TOP 10 BEST Mediterranean Restaurants near Pacific Beach, San Diego, CA 92109 - Updated 2026 - Yelp",
+                  "url": "https://www.yelp.com/search?find_desc=Mediterranean+Restaurants&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "TOP 10 BEST Mediterranean Restaurants near Pacific Beach, San Diego, CA 92109 - Updated 2026 - Yelp",
+                  "url": "https://www.yelp.com/search?find_desc=Mediterranean+Restaurants&find_loc=Pacific+Beach%2C+San+Diego%2C+CA+92109",
+                  "domain": "yelp.com"
+                }
+              ],
+              "restaurants": [
+                "Cafe Athena",
+                "Spitz - Pacific Beach",
+                "Shawarma Shack"
+              ]
+            }
+          }
+        },
+        {
+          "id": "P15",
+          "q": "does anywhere in pb have greek food with vegan options and good cocktails",
+          "stage": "needs",
+          "answers": {
+            "ChatGPT": {
+              "answer": "",
+              "sources": [],
+              "error": "401 Client Error: Unauthorized for url: https://api.openai.com/v1/chat/completions",
+              "restaurants": []
+            },
+            "Gemini": {
+              "answer": "",
+              "sources": [],
+              "error": "404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AQ.Ab8RN6LkviUpeSiu4Zq77kx8nxfTXFc07RvUwGeda_lno_10tw",
+              "restaurants": []
+            },
+            "Claude": {
+              "answer": "Great news! Yes, **Cafe Athena** is perfect for what you're looking for. Here's what makes it ideal:\n\n**Cafe Athena** (1846 Garnet Ave)\nThey offer a full menu including vegan, vegetarian, and gluten-free options, and pair your meal with a selection from our full bar, featuring specialty cocktails. Their bar features handcrafted cocktails infused with unique flavors and elements of Greek mythology. They've been around since 1990 and are recognized as one of San Diego's best Greek restaurants. Plus, they have happy hour daily from 3-6 PM!\n\n**Spitz - Pacific Beach** (967 Garnet Ave) \nThis is more casual Mediterranean/Greek spot. They have a Vegan Menu as well as Gluten-Free, Dairy-Free & Halal options, though I didn't find specific info about their cocktail program, so Cafe Athena would be your best bet for the full Greek + vegan + cocktails combo.\n\nCafe Athena really checks all your boxes!",
+              "sources": [
+                {
+                  "title": "Authentic Greek and Mediterranean Food - Cafe Athena",
+                  "url": "https://cafeathena.com/",
+                  "domain": "cafeathena.com"
+                },
+                {
+                  "title": "Authentic Greek and Mediterranean Food - Cafe Athena",
+                  "url": "https://cafeathena.com/",
+                  "domain": "cafeathena.com"
+                },
+                {
+                  "title": "Authentic Greek and Mediterranean Food - Cafe Athena",
+                  "url": "https://cafeathena.com/",
+                  "domain": "cafeathena.com"
+                },
+                {
+                  "title": "Authentic Greek and Mediterranean Food - Cafe Athena",
+                  "url": "https://cafeathena.com/",
+                  "domain": "cafeathena.com"
+                },
+                {
+                  "title": "SPITZ - PACIFIC BEACH - Updated October 2026 - 162 Reviews - 260 Photos - 967 Garnet Ave, San Diego, California - Mediterranean - Restaurant Reviews - Phone Number - Menu - Yelp",
+                  "url": "https://www.yelp.com/biz/spitz-san-diego-5",
+                  "domain": "yelp.com"
+                }
+              ],
+              "restaurants": [
+                "Cafe Athena",
+                "Spitz - Pacific Beach"
+              ]
+            }
+          }
+        },
+        {
+          "id": "P16",
+          "q": "is cafe athena in pacific beach any good",
+          "stage": "decide",
+          "answers": {
+            "ChatGPT": {
+              "answer": "",
+              "sources": [],
+              "error": "401 Client Error: Unauthorized for url: https://api.openai.com/v1/chat/completions",
+              "restaurants": []
+            },
+            "Gemini": {
+              "answer": "",
+              "sources": [],
+              "error": "404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AQ.Ab8RN6LkviUpeSiu4Zq77kx8nxfTXFc07RvUwGeda_lno_10tw",
+              "restaurants": []
+            },
+            "Claude": {
+              "answer": "Yes, Cafe Athena is quite good! It's rated 4.4 of 5 on Tripadvisor and ranked #364 of 3,223 restaurants in San Diego, and it has a 4.8 rating with over 5,000 ratings on DoorDash.\n\nHere's what stands out:\n\n**The Good:**\n- Great food, friendly staff, welcoming atmosphere, and reasonable prices\n- Established in 1990, it's been successfully operating for over 30 years\n- The beef and chicken skewers are tender with great flavor, dolmades and avgolemono soup are really good\n- Daily happy hour from 3-6 pm\n- Dog-friendly outdoor patio\n\n**Popular dishes:** The hummus, chicken kabobs, beef skewers, gyros, and Greek salads get consistent praise.\n\n**Minor drawbacks:** Some reviews mention service can be inconsistent, and the decor has been described as a bit dated (though it's been remodeled in recent years).\n\nOverall, it's a solid neighborhood Greek spot that's been a PB staple for decades—great for casual dining with authentic flavors at reasonable prices!",
+              "sources": [
+                {
+                  "title": "CAFE ATHENA, San Diego - Pacific Beach - Restaurant Reviews, Phone Number & Photos - Tripadvisor",
+                  "url": "https://www.tripadvisor.in/Restaurant_Review-g60750-d3461449-Reviews-Cafe_Athena-San_Diego_California.html",
+                  "domain": "tripadvisor.in"
+                },
+                {
+                  "title": "Order Cafe Athena - San Diego, CA Menu Delivery [Menu & Prices]",
+                  "url": "https://www.doordash.com/store/cafe-athena-san-diego-11713/",
+                  "domain": "doordash.com"
+                },
+                {
+                  "title": "CAFE ATHENA, San Diego - Pacific Beach - Restaurant Reviews, Phone Number & Photos - Tripadvisor",
+                  "url": "https://www.tripadvisor.in/Restaurant_Review-g60750-d3461449-Reviews-Cafe_Athena-San_Diego_California.html",
+                  "domain": "tripadvisor.in"
+                },
+                {
+                  "title": "Good Greek restaurant in Pacific Beach - Review of Cafe Athena, San Diego, CA - Tripadvisor",
+                  "url": "https://www.tripadvisor.com/ShowUserReviews-g60750-d3461449-r192240223-Cafe_Athena-San_Diego_California.html",
+                  "domain": "tripadvisor.com"
+                },
+                {
+                  "title": "CAFE ATHENA, San Diego - Pacific Beach - Restaurant Reviews, Phone Number & Photos - Tripadvisor",
+                  "url": "https://www.tripadvisor.in/Restaurant_Review-g60750-d3461449-Reviews-Cafe_Athena-San_Diego_California.html",
+                  "domain": "tripadvisor.in"
+                },
+                {
+                  "title": "CAFE ATHENA, San Diego - Pacific Beach - Restaurant Reviews, Phone Number & Photos - Tripadvisor",
+                  "url": "https://www.tripadvisor.in/Restaurant_Review-g60750-d3461449-Reviews-Cafe_Athena-San_Diego_California.html",
+                  "domain": "tripadvisor.in"
+                },
+                {
+                  "title": "Good Greek restaurant in Pacific Beach - Review of Cafe Athena, San Diego, CA - Tripadvisor",
+                  "url": "https://www.tripadvisor.co.nz/ShowUserReviews-g60750-d3461449-r192240223-Cafe_Athena-San_Diego_California.html",
+                  "domain": "tripadvisor.co.nz"
+                }
+              ],
+              "restaurants": []
+            }
+          }
+        },
+        {
+          "id": "P17",
+          "q": "cafe athena pb reviews",
+          "stage": "decide",
+          "answers": {
+            "ChatGPT": {
+              "answer": "",
+              "sources": [],
+              "error": "401 Client Error: Unauthorized for url: https://api.openai.com/v1/chat/completions",
+              "restaurants": []
+            },
+            "Gemini": {
+              "answer": "",
+              "sources": [],
+              "error": "404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AQ.Ab8RN6LkviUpeSiu4Zq77kx8nxfTXFc07RvUwGeda_lno_10tw",
+              "restaurants": []
+            },
+            "Claude": {
+              "answer": "Based on my search, here's what people are saying about Cafe Athena in Pacific Beach:\n\n## Overall Rating\nCafe Athena has a 4.4 out of 5 rating on Tripadvisor with 101 reviews, and 4.8 stars on delivery platforms with thousands of ratings.\n\n## What Reviewers Love:\n- **Food Quality**: Reviewers praise the great food, friendly staff, welcoming atmosphere and reasonable prices. The beef and chicken on skewers are described as tender with great flavor.\n\n- **Standout Dishes**: The hummus is frequently called amazing, and dolmades and avgolemono soup receive praise. The Beef Souvlaki Wrap is noted as tasty with tender, juicy beef and amazing tzatziki.\n\n- **Value**: Portions are generous and prices are reasonable.\n\n- **Atmosphere**: The restaurant has been recently remodeled with a chic, modern look, and their outdoor patio is dog-friendly.\n\n- **History**: Established in 1990, Cafe Athena has been successfully operating for over 30 years.\n\n## Occasional Concerns:\nSome reviews mention inconsistent service quality, though most praise the friendly servers. There's lots of parking in the large lot, which is a plus for Pacific Beach!\n\nOverall, it's highly recommended for authentic Greek food at good prices in PB!",
+              "sources": [
+                {
+                  "title": "CAFE ATHENA, San Diego - Pacific Beach - Restaurant Reviews, Phone Number & Photos - Tripadvisor",
+                  "url": "https://www.tripadvisor.in/Restaurant_Review-g60750-d3461449-Reviews-Cafe_Athena-San_Diego_California.html",
+                  "domain": "tripadvisor.in"
+                },
+                {
+                  "title": "Order Cafe Athena (Pacific Beach) - Menu & Prices - San Diego Delivery",
+                  "url": "https://www.ubereats.com/store/cafe-athena-pacific-beach/vw8V20nHTNqwmhpO6E1OIw",
+                  "domain": "ubereats.com"
+                },
+                {
+                  "title": "Order Cafe Athena - San Diego, CA Menu Delivery [Menu & Prices]",
+                  "url": "https://www.doordash.com/store/cafe-athena-san-diego-11713/",
+                  "domain": "doordash.com"
+                },
+                {
+                  "title": "CAFE ATHENA, San Diego - Pacific Beach - Restaurant Reviews, Phone Number & Photos - Tripadvisor",
+                  "url": "https://www.tripadvisor.in/Restaurant_Review-g60750-d3461449-Reviews-Cafe_Athena-San_Diego_California.html",
+                  "domain": "tripadvisor.in"
+                },
+                {
+                  "title": "CAFE ATHENA, San Diego - Pacific Beach - Restaurant Reviews, Phone Number & Photos - Tripadvisor",
+                  "url": "https://www.tripadvisor.in/Restaurant_Review-g60750-d3461449-Reviews-Cafe_Athena-San_Diego_California.html",
+                  "domain": "tripadvisor.in"
+                },
+                {
+                  "title": "Good Greek restaurant in Pacific Beach - Review of Cafe Athena, San Diego, CA - Tripadvisor",
+                  "url": "https://www.tripadvisor.co.nz/ShowUserReviews-g60750-d3461449-r192240223-Cafe_Athena-San_Diego_California.html",
+                  "domain": "tripadvisor.co.nz"
+                },
+                {
+                  "title": "CAFE ATHENA, San Diego - Pacific Beach - Restaurant Reviews, Phone Number & Photos - Tripadvisor",
+                  "url": "https://www.tripadvisor.in/Restaurant_Review-g60750-d3461449-Reviews-Cafe_Athena-San_Diego_California.html",
+                  "domain": "tripadvisor.in"
+                },
+                {
+                  "title": "Order Cafe Athena (Pacific Beach) - Menu & Prices - San Diego Delivery",
+                  "url": "https://www.ubereats.com/store/cafe-athena-pacific-beach/vw8V20nHTNqwmhpO6E1OIw",
+                  "domain": "ubereats.com"
+                },
+                {
+                  "title": "Greek food in Pacific Beach - Review of Cafe Athena, San Diego, CA - Tripadvisor",
+                  "url": "https://www.tripadvisor.co.nz/ShowUserReviews-g60750-d3461449-r724772697-Cafe_Athena-San_Diego_California.html",
+                  "domain": "tripadvisor.co.nz"
+                },
+                {
+                  "title": "Greek food in Pacific Beach - Review of Cafe Athena, San Diego, CA - Tripadvisor",
+                  "url": "https://www.tripadvisor.co.nz/ShowUserReviews-g60750-d3461449-r724772697-Cafe_Athena-San_Diego_California.html",
+                  "domain": "tripadvisor.co.nz"
+                },
+                {
+                  "title": "Greek food in Pacific Beach - Review of Cafe Athena, San Diego, CA - Tripadvisor",
+                  "url": "https://www.tripadvisor.co.nz/ShowUserReviews-g60750-d3461449-r724772697-Cafe_Athena-San_Diego_California.html",
+                  "domain": "tripadvisor.co.nz"
+                },
+                {
+                  "title": "Good Greek restaurant in Pacific Beach - Review of Cafe Athena, San Diego, CA - Tripadvisor",
+                  "url": "https://www.tripadvisor.co.nz/ShowUserReviews-g60750-d3461449-r192240223-Cafe_Athena-San_Diego_California.html",
+                  "domain": "tripadvisor.co.nz"
+                },
+                {
+                  "title": "Good Greek restaurant in Pacific Beach - Review of Cafe Athena, San Diego, CA - Tripadvisor",
+                  "url": "https://www.tripadvisor.com/ShowUserReviews-g60750-d3461449-r192240223-Cafe_Athena-San_Diego_California.html",
+                  "domain": "tripadvisor.com"
+                },
+                {
+                  "title": "Greek food in Pacific Beach - Review of Cafe Athena, San Diego, CA - Tripadvisor",
+                  "url": "https://www.tripadvisor.co.nz/ShowUserReviews-g60750-d3461449-r724772697-Cafe_Athena-San_Diego_California.html",
+                  "domain": "tripadvisor.co.nz"
+                }
+              ],
+              "restaurants": []
+            }
+          }
+        },
+        {
+          "id": "P18",
+          "q": "does cafe athena take reservations",
+          "stage": "decide",
+          "answers": {
+            "ChatGPT": {
+              "answer": "",
+              "sources": [],
+              "error": "401 Client Error: Unauthorized for url: https://api.openai.com/v1/chat/completions",
+              "restaurants": []
+            },
+            "Gemini": {
+              "answer": "",
+              "sources": [],
+              "error": "404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AQ.Ab8RN6LkviUpeSiu4Zq77kx8nxfTXFc07RvUwGeda_lno_10tw",
+              "restaurants": []
+            },
+            "Claude": {
+              "answer": "Yes! Cafe Athena takes reservations. You can make a reservation by calling them at (858) 274-1140 or through their website at cafeathena.com. They're located at 1846 Garnet Ave in Pacific Beach.",
+              "sources": [
+                {
+                  "title": "CAFE ATHENA - Updated October 2026 - 890 Reviews - 595 Photos - 1846 Garnet Ave, San Diego, California - Greek - Restaurant Reviews - Phone Number - Yelp",
+                  "url": "https://www.yelp.com/biz/cafe-athena-san-diego-4",
+                  "domain": "yelp.com"
+                },
+                {
+                  "title": "Authentic Greek and Mediterranean Food - Cafe Athena",
+                  "url": "https://cafeathena.com/",
+                  "domain": "cafeathena.com"
+                },
+                {
+                  "title": "Authentic Greek and Mediterranean Food - Cafe Athena",
+                  "url": "https://cafeathena.com/",
+                  "domain": "cafeathena.com"
+                }
+              ],
+              "restaurants": [
+                "Cafe Athena"
+              ]
+            }
+          }
+        },
+        {
+          "id": "P19",
+          "q": "cafe athena happy hour times and prices",
+          "stage": "decide",
+          "answers": {
+            "ChatGPT": {
+              "answer": "",
+              "sources": [],
+              "error": "401 Client Error: Unauthorized for url: https://api.openai.com/v1/chat/completions",
+              "restaurants": []
+            },
+            "Gemini": {
+              "answer": "",
+              "sources": [],
+              "error": "404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AQ.Ab8RN6LkviUpeSiu4Zq77kx8nxfTXFc07RvUwGeda_lno_10tw",
+              "restaurants": []
+            },
+            "Claude": {
+              "answer": "Based on my search results, here's the happy hour information for Cafe Athena in Pacific Beach:\n\n**Happy Hour Times:**\nDaily from 3:00 PM to 6:00 PM (every day of the week)\n\n**Happy Hour Prices:**\n\n*Drinks:*\n- Beer: $6-7 (including Mythos, Pacifico, Modelo Negra, Coors Light, Firestone Walker '805', Corona NA for $6; Modelo Especial and AleSmith .394 for $7)\n- Specialty cocktails: $10 (Poseidon's Margarita, Nyx's Espresso Martini, Medusa's Mule, Hades' Sour)\n- Wine by the glass: $2 off; Selected bottles: $10 off\n\n*Food:*\n- Small plates ranging from $5-23, including Hummos ($5), Tzatziki ($5), Yalanji ($5), Spanakopita ($5.50), Feta Bruschetta ($6), Gyros ($9), Calamari ($12), Chicken Souvlaki Skewers ($13)\n\nCafe Athena is located at 1846 Garnet Avenue in Pacific Beach. It's a great spot for Mediterranean/Greek food with an excellent daily happy hour!",
+              "sources": [
+                {
+                  "title": "Cafe Athena Happy Hours",
+                  "url": "https://sandiegohappyhour.info/restaurants/cafe-athena",
+                  "domain": "sandiegohappyhour.info"
+                },
+                {
+                  "title": "Cafe Athena - San Diego - Happy Hour Friends",
+                  "url": "https://happyhourfriends.com/ca/san-diego/venue/cafe-athena",
+                  "domain": "happyhourfriends.com"
+                },
+                {
+                  "title": "Cafe Athena - San Diego - Happy Hour Friends",
+                  "url": "https://happyhourfriends.com/ca/san-diego/venue/cafe-athena",
+                  "domain": "happyhourfriends.com"
+                },
+                {
+                  "title": "Cafe Athena - San Diego - Happy Hour Friends",
+                  "url": "https://happyhourfriends.com/ca/san-diego/venue/cafe-athena",
+                  "domain": "happyhourfriends.com"
+                },
+                {
+                  "title": "Cafe Athena - San Diego - Happy Hour Friends",
+                  "url": "https://happyhourfriends.com/ca/san-diego/venue/cafe-athena",
+                  "domain": "happyhourfriends.com"
+                },
+                {
+                  "title": "Cafe Athena - San Diego - Happy Hour Friends",
+                  "url": "https://happyhourfriends.com/ca/san-diego/venue/cafe-athena",
+                  "domain": "happyhourfriends.com"
+                }
+              ],
+              "restaurants": [
+                "Cafe Athena"
+              ]
+            }
+          }
+        },
+        {
+          "id": "P20",
+          "q": "how's the food at cafe athena on garnet ave",
+          "stage": "decide",
+          "answers": {
+            "ChatGPT": {
+              "answer": "",
+              "sources": [],
+              "error": "401 Client Error: Unauthorized for url: https://api.openai.com/v1/chat/completions",
+              "restaurants": []
+            },
+            "Gemini": {
+              "answer": "",
+              "sources": [],
+              "error": "404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AQ.Ab8RN6LkviUpeSiu4Zq77kx8nxfTXFc07RvUwGeda_lno_10tw",
+              "restaurants": []
+            },
+            "Claude": {
+              "answer": "Cafe Athena on Garnet Ave has really solid reviews! The restaurant has been in operation for over 30 years since 1990, which speaks to its staying power in PB.\n\nHere's what people are saying about the food:\n\n**The Good:**\n- The food is described as \"delicious: fresh, colorful, and nutritious\"\n- Recent reviewers praised the tender, flavorful beef and chicken skewers, dolmades, and avgolemono soup\n- DoorDash reviews rate it 4.8/5 with over 5,000 ratings, with praise for the Chicken Aioli Wrap and generous portions of gyros meat\n- It's rated 4.4/5 on TripAdvisor and won Best Greek Restaurant in San Diego from San Diego Magazine four years in a row (2006-2009)\n- Popular items include hummus, gyros, kabobs, spanakopita, and their Greek salad\n\n**Service & Atmosphere:**\n- Reviews mention \"impeccable service\" and \"delightful ambiance\"\n- The restaurant is described as welcoming with reasonable prices\n- They have a dog-friendly outdoor patio\n\nOverall, it's a reliable neighborhood spot for authentic Greek food at good prices. Most people seem very satisfied with the quality and portions!",
+              "sources": [
+                {
+                  "title": "Good Greek restaurant in Pacific Beach - Review of Cafe Athena, San Diego, CA - Tripadvisor",
+                  "url": "https://www.tripadvisor.co.nz/ShowUserReviews-g60750-d3461449-r192240223-Cafe_Athena-San_Diego_California.html",
+                  "domain": "tripadvisor.co.nz"
+                },
+                {
+                  "title": "Greek food in Pacific Beach - Review of Cafe Athena, San Diego, CA - Tripadvisor",
+                  "url": "https://www.tripadvisor.co.nz/ShowUserReviews-g60750-d3461449-r724772697-Cafe_Athena-San_Diego_California.html",
+                  "domain": "tripadvisor.co.nz"
+                },
+                {
+                  "title": "CAFE ATHENA, San Diego - Pacific Beach - Photos & Restaurant Reviews - Order Online Food Delivery - Tripadvisor",
+                  "url": "https://www.tripadvisor.com/Restaurant_Review-g60750-d3461449-Reviews-Cafe_Athena-San_Diego_California.html",
+                  "domain": "tripadvisor.com"
+                },
+                {
+                  "title": "Order Cafe Athena - San Diego, CA Menu Delivery [Menu & Prices]",
+                  "url": "https://www.doordash.com/store/cafe-athena-san-diego-11713/",
+                  "domain": "doordash.com"
+                },
+                {
+                  "title": "CAFE ATHENA, San Diego - Pacific Beach - Photos & Restaurant Reviews - Order Online Food Delivery - Tripadvisor",
+                  "url": "https://www.tripadvisor.com/Restaurant_Review-g60750-d3461449-Reviews-Cafe_Athena-San_Diego_California.html",
+                  "domain": "tripadvisor.com"
+                },
+                {
+                  "title": "Cafe Athena — Mediterranean in Pacific Beach",
+                  "url": "https://sandiegolineup.com/pacific-beach/mediterranean/cafe-athena",
+                  "domain": "sandiegolineup.com"
+                },
+                {
+                  "title": "CAFE ATHENA, San Diego - Pacific Beach - Photos & Restaurant Reviews - Order Online Food Delivery - Tripadvisor",
+                  "url": "https://www.tripadvisor.com/Restaurant_Review-g60750-d3461449-Reviews-Cafe_Athena-San_Diego_California.html",
+                  "domain": "tripadvisor.com"
+                },
+                {
+                  "title": "CAFE ATHENA, San Diego - Pacific Beach - Photos & Restaurant Reviews - Order Online Food Delivery - Tripadvisor",
+                  "url": "https://www.tripadvisor.com/Restaurant_Review-g60750-d3461449-Reviews-Cafe_Athena-San_Diego_California.html",
+                  "domain": "tripadvisor.com"
+                }
+              ],
+              "restaurants": [
+                "Cafe Athena"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

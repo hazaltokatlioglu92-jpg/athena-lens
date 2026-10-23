@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+{% block t %}Is this you?{% endblock %}
+{% block body %}
+<section class="narrow">
+  <h2>Is this your restaurant?</h2>
+  <div class="confirm">
+    <div class="avatar">{{ prof.name[:1] }}</div>
+    <div>
+      <h3>{{ prof.name }}</h3>
+      <p>{{ prof.cuisine }}</p>
+      <p class="muted">{{ prof.address }}</p>
+      {% if prof.website %}<p><a href="{{ prof.website }}" target="_blank">{{ prof.domain or prof.website }}</a></p>{% endif %}
+    </div>
+  </div>
+
+  <form method="post" action="{{ url_for('scan') }}" class="setup" onsubmit="this.querySelector('button').disabled=true">
+    <input type="hidden" name="profile" value="{{ prof_json }}">
+    <label>Names AI might use for you
+      <input name="aliases" value="{{ prof.aliases|join(', ') }}">
+      <small>Comma separated. Used to spot you inside AI answers.</small>
+    </label>
+    <label>Customer prompts per funnel stage
+      <select name="per_stage">
+        <option value="3">3 per stage · 12 prompts · about 2 min</option>
+        <option value="5" selected>5 per stage · 20 prompts · about 4 min</option>
+        <option value="8">8 per stage · 32 prompts · about 6 min</option>
+      </select>
+      <small>Each prompt is asked on {{ platforms|join(', ') or 'no platforms (add API keys)' }}.</small>
+    </label>
+    <div class="row">
+      <a href="/" class="btn ghost">Not my restaurant</a>
+      <button class="btn" {% if not platforms %}disabled{% endif %}>Yes, run my health check</button>
+    </div>
+  </form>
+</section>
+{% endblock %}

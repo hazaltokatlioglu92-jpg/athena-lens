@@ -1,0 +1,22 @@
+[
+  {
+    "key": "discover",
+    "name": "Discover",
+    "desc": "Cuisine + area. The customer knows what they feel like eating."
+  },
+  {
+    "key": "occasion",
+    "name": "Occasion",
+    "desc": "The moment drives the search: happy hour, date night, family, groups."
+  },
+  {
+    "key": "needs",
+    "name": "Specific needs",
+    "desc": "Qualities that filter the list: diet, price, party size, timing."
+  },
+  {
+    "key": "decide",
+    "name": "Decide",
+    "desc": "They already have a name in mind and are checking it."
+  }
+]

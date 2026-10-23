@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block t %}Lens{% endblock %} · Lens</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='lens.css') }}">
+</head>
+<body>
+<header class="bar">
+  <a class="logo" href="/"><span class="dot"></span>Lens<small>AI search health</small></a>
+  {% if p %}
+  <nav class="tabs">
+    <a class="{{ 'on' if page=='dashboard' }}" href="{{ url_for('dashboard', slug=proj.slug) }}">Health dashboard</a>
+    <a class="{{ 'on' if page=='searches' }}" href="{{ url_for('searches', slug=proj.slug) }}">Customer searches</a>
+    <a class="off" title="Coming next">Fix it</a>
+    <a class="off" title="Coming next">Track</a>
+  </nav>
+  <div class="who">{{ p.name }}</div>
+  {% endif %}
+</header>
+<main>{% block body %}{% endblock %}</main>
+{% block js %}{% endblock %}
+</body>
+</html>

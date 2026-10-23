@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+{% block t %}Start{% endblock %}
+{% block body %}
+<section class="hero">
+  <h1>How does AI recommend your restaurant?</h1>
+  <p>See where you show up when diners ask ChatGPT, Gemini and Claude where to eat, and who gets picked instead.</p>
+  <form class="bigsearch" method="post" action="{{ url_for('find') }}" onsubmit="this.querySelector('button').textContent='Finding…'">
+    <input name="name" placeholder="Your restaurant's name" required autofocus>
+    <input name="city" placeholder="City or neighborhood" class="city">
+    <button>Check my restaurant</button>
+  </form>
+  {% if error %}<p class="err">{{ error }}</p>{% endif %}
+  <p class="try">Try: <a href="#" onclick="document.querySelector('[name=name]').value='Café Athena';document.querySelector('[name=city]').value='Pacific Beach, San Diego';return false">Café Athena, Pacific Beach</a></p>
+  {% if not platforms %}<p class="err">No API keys found. Add them to a .env file (see README) and restart.</p>{% endif %}
+</section>
+
+{% if projects %}
+<section class="recent">
+  <h3>Your restaurants</h3>
+  <div class="cards">
+  {% for pr in projects %}
+    <a class="pcard" href="{{ url_for('dashboard', slug=pr.slug) }}">
+      <b>{{ pr.profile.name }}</b><span>{{ pr.profile.area }}</span>
+      <small>{{ pr.scans|length }} scan{{ 's' if pr.scans|length != 1 }}{% if pr.scans %} · last {{ pr.scans[0].date }}{% endif %}</small>
+    </a>
+  {% endfor %}
+  </div>
+</section>
+{% endif %}
+{% endblock %}

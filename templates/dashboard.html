@@ -1,0 +1,120 @@
+{% extends "layout.html" %}
+{% block t %}{{ p.name }} health{% endblock %}
+{% block body %}
+{% set colors = ['var(--me)', '#e07a3f', '#2e9e6a', '#8e5bd0', '#c94a6a'] %}
+{% set ents = [{'name': p.name, 's': d.me, 'c': colors[0], 'me': True}] %}
+{% for c in d.comps %}{% set _ = ents.append({'name': c.name, 's': c, 'c': colors[loop.index], 'me': False}) %}{% endfor %}
+{% set cmp = ents|length > 1 %}
+{% macro grade(s) %}{{ 'Strong' if s >= 75 else ('Good' if s >= 55 else ('Fair' if s >= 35 else 'Weak')) }}{% endmacro %}
+
+<section class="head">
+  <div>
+    <h1>{{ p.name }}</h1>
+    <p class="muted">{{ p.cuisine }} · {{ p.address }}{% if p.domain %} · <a href="{{ p.website }}" target="_blank">{{ p.domain }}</a>{% endif %}</p>
+  </div>
+  <form method="post" action="{{ url_for('rescan', slug=proj.slug) }}" class="scaninfo">
+    <span class="muted small">Checked {{ scan.date }} · {{ d.prompts }} customer prompts on {{ scan.platforms|join(', ') }}</span>
+    <button class="btn ghost sm">Re-check now</button>
+  </form>
+</section>
+
+<!-- competitor bar -->
+<section class="compare">
+  <div class="chips">
+    <span class="lbl">Compare</span>
+    {% for e in ents %}
+      <span class="ent" style="--c: {{ e.c }}"><i></i>{{ e.name }}{% if e.me %} <em>you</em>{% else %}
+        <form method="post" action="{{ url_for('competitors', slug=proj.slug) }}"><button name="remove" value="{{ e.name }}" title="Remove">×</button></form>{% endif %}</span>
+    {% endfor %}
+    {% if d.comps|length < 4 %}
+    <form method="post" action="{{ url_for('competitors', slug=proj.slug) }}" class="add">
+      <input name="name" placeholder="+ Add a competitor" list="sugg">
+      <datalist id="sugg">{% for s in d.suggestions %}<option value="{{ s.name }}">{% endfor %}</datalist>
+    </form>
+    {% endif %}
+  </div>
+  {% if d.suggestions and d.comps|length < 4 %}
+  <div class="sugg">
+    <span class="muted small">AI recommends these instead of you most often:</span>
+    {% for s in d.suggestions %}
+      <form method="post" action="{{ url_for('competitors', slug=proj.slug) }}"><button class="schip" name="name" value="{{ s.name }}">+ {{ s.name }} <b>{{ s.count }}</b></button></form>
+    {% endfor %}
+  </div>
+  {% endif %}
+</section>
+
+<!-- score + tiles -->
+<section class="grid5">
+  <div class="tile score">
+    <div class="tl">AI Visibility Score</div>
+    <div class="big">{{ d.me.score }}<small>/100</small></div>
+    <div class="grade g-{{ grade(d.me.score)|trim|lower }}">{{ grade(d.me.score) }}</div>
+    {% if cmp %}<div class="vs">{% for e in ents[1:] %}<div><i style="background:{{ e.c }}"></i>{{ e.name }} <b>{{ e.s.score }}</b></div>{% endfor %}</div>
+    {% else %}<p class="explain">How often AI names you, weighted by how high. 100 = named first in every answer.</p>{% endif %}
+  </div>
+
+  {% set tiles = [
+    ('Shows up', 'rate', 'pct', 'Share of AI answers that name you'),
+    ('Average position', 'avg_rank', 'rank', 'Your spot in the list when named'),
+    ('Share of voice', 'sov', 'pct', 'Your share of all restaurant mentions'),
+    ('Cites your website', 'cited', 'pct', 'Answers that link to your own site')] %}
+  {% for label, key, fmt, help in tiles %}
+  <div class="tile">
+    <div class="tl">{{ label }}</div>
+    {% for e in ents %}
+      {% set v = e.s.get(key) %}
+      {% if key == 'cited' and not e.me %}{% set v = None %}{% endif %}
+      <div class="{{ 'big' if loop.first else 'line' }}">
+        {% if cmp %}<i style="background:{{ e.c }}"></i>{% endif %}
+        {% if not loop.first %}<span>{{ e.name }}</span>{% endif %}
+        <b>{% if v is none %}–{% elif fmt == 'pct' %}{{ v|pct }}{% else %}#{{ v }}{% endif %}</b>
+      </div>
+      {% if loop.first and key == 'rate' %}<div class="sub">named in {{ d.me.hits }} of {{ d.me.n }} answers</div>{% endif %}
+    {% endfor %}
+    {% if not cmp %}<p class="explain">{{ help }}</p>{% endif %}
+  </div>
+  {% endfor %}
+</section>
+
+<!-- funnel -->
+<section class="card">
+  <div class="cardhead"><h2>Where you show up in the customer journey</h2><span class="muted small">Visibility by funnel stage. Click a stage to see the searches behind it.</span></div>
+  <div class="funnel">
+    {% for f in funnel %}
+    {% set st = d.me.stages[f.key] %}
+    <a class="stage" href="{{ url_for('searches', slug=proj.slug, stage=f.key) }}">
+      <div class="sn"><span class="step">{{ loop.index }}</span>{{ f.name }}</div>
+      <div class="sd">{{ f.desc }}</div>
+      {% for e in ents %}
+        {% set v = e.s.stages[f.key].rate %}
+        <div class="srow {{ 'mine' if e.me }}">
+          {% if cmp %}<span class="sname">{{ e.name }}</span>{% endif %}
+          <div class="sbar"><span style="width: {{ (v*100)|round }}%; background: {{ e.c }}"></span></div>
+          <b>{{ v|pct }}</b>
+        </div>
+      {% endfor %}
+      <div class="sfoot">{{ st.hits }} of {{ st.n }} answers · see searches →</div>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="two">
+  <div class="card">
+    <h2>Top issues</h2>
+    {% for i in d.issues %}
+      <div class="issue"><span class="num">{{ loop.index }}</span><div><b>{{ i.title }}</b><p>{{ i.detail }}</p></div></div>
+    {% else %}<p class="muted">No major issues found in this check.</p>{% endfor %}
+  </div>
+  <div class="card">
+    <h2>By AI platform</h2>
+    <table class="plat">
+      <thead><tr><th></th>{% for e in ents %}<th><i style="background:{{ e.c }}"></i>{{ 'You' if e.me else e.name }}</th>{% endfor %}</tr></thead>
+      <tbody>{% for pl in scan.platforms %}
+        <tr><td>{{ pl }}</td>{% for e in ents %}<td>{{ e.s.platforms[pl].rate|pct }}{% if e.s.platforms[pl].avg_rank %} <small>#{{ e.s.platforms[pl].avg_rank }}</small>{% endif %}</td>{% endfor %}</tr>
+      {% endfor %}</tbody>
+    </table>
+    <p class="muted small">Share of answers naming each restaurant, with average position.</p>
+  </div>
+</section>
+{% endblock %}

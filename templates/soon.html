@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block t %}{{ title }}{% endblock %}
+{% block body %}
+<section class="narrow center">
+  <h2>{{ title }}</h2>
+  <p class="muted">This is the next screen we build: the Google Trends–style tables of where you show up and where you're missing{% if stage %}, opened on the <b>{{ (funnel|selectattr('key','equalto',stage)|first).name }}</b> stage{% endif %}.</p>
+  <a class="btn ghost" href="{{ url_for('dashboard', slug=proj.slug) }}">← Back to dashboard</a>
+</section>
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% block t %}Checking…{% endblock %}
+{% block body %}
+<section class="narrow center">
+  <div class="spinner"></div>
+  <h2 id="st">Starting…</h2>
+  <div class="prog"><span id="bar"></span></div>
+  <p id="cnt" class="muted"></p>
+  <p class="muted small">We're asking each AI the same questions your customers ask, then reading who it recommends.</p>
+  <pre id="err" class="errbox" hidden></pre>
+</section>
+{% endblock %}
+{% block js %}
+<script>
+async function tick(){
+  const s = await (await fetch('/job/{{ job }}')).json();
+  document.getElementById('st').textContent = s.status;
+  if (s.total) {
+    document.getElementById('bar').style.width = (100 * s.done / s.total) + '%';
+    document.getElementById('cnt').textContent = `${s.done} of ${s.total} prompts checked`;
+  }
+  if (s.errors && s.errors.length) { const e = document.getElementById('err'); e.hidden = false; e.textContent = [...new Set(s.errors)].slice(-6).join('\n'); }
+  if (s.finished && s.status === 'Done') location.href = `/p/${s.slug}/`;
+  else if (!s.finished) setTimeout(tick, 1500);
+}
+tick();
+</script>
+{% endblock %}
